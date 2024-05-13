@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: aliceblue;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.carousel {
+    display: flex;
+    height: 500px;
+    background-color: #f0f8ff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+.carousel img {
+    width: 390px;
+}
+
+span {
+    color: #af63a5;
+}
+
+.about-me, .education{
+    text-align: center;
+    justify-content: center;
+}
+
+.about-me h2 {
+    font-weight: 600;
+}
+
+.about-me p{
+    margin-top: 2rem;
+    line-height: 2;
+}
+
+.education {
+    margin-top: 6rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.education h2 {
+    font-weight: 600;
+}
+
+.education table {
+    margin-top: 2rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.education th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.education td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.movie {
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.movie h2 {
+    font-weight: 600;
+}
+
+.container-card {
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    margin-right: 12px;
+}
+
+.card img {
+    height: 300px;
+}
